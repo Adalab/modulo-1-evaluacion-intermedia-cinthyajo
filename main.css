@@ -1,0 +1,68 @@
+body {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  margin: 0%;
+  padding: 0;
+  min-width: 320px;
+}
+
+.sloganadalab {
+  margin-top: 10px;
+  width: 155px;
+  margin-bottom: 10px;
+}
+
+a {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  color: #ffffff;
+  background-color: #3cdbc0;
+  align-items: center;
+  justify-content: center;
+  flex: wrap;
+}
+
+.div {
+  line-height: 50px;
+  font-size: 30px;
+  justify-content: center;
+  display: block;
+  text-align: center;
+  align-items: center;
+}
+
+@media all and (max-width: 767px) {
+  .header {
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+
+    .menu {
+      flex-direction: row-reverse;
+    }
+  }
+}
+
+@media all and (min-width: 768px) {
+  .slogan {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .header {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 25px;
+  }
+
+  .box1,
+  box2,
+  box3 {
+    flex-wrap: row-wrap;
+  }
+}
