@@ -42,10 +42,9 @@ a {
     flex-direction: row;
     justify-content: center;
     padding: 20px;
-
-    .menu {
-      flex-direction: row-reverse;
-    }
+  }
+  .menu {
+    flex-direction: row-reverse;
   }
 }
 
